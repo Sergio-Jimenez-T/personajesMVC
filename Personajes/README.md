@@ -7,7 +7,7 @@ Este proyecto es un sistema para la gestión de personajes de videojuegos. Permi
 
 ### 1. Clonar el repositorio
 ```bash
-  git clone <URL_DEL_REPOSITORIO>
+  git clone <(https://github.com/Sergio-Jimenez-T/personajesMVC/edit/main/Personajes/README.md)>
 ```
 
 ### 2. Configurar la base de datos
@@ -66,5 +66,4 @@ Personajes/
 - **HTML, CSS** (Interfaz de usuario)
 - **Apache** (Servidor local)
 
-## Contacto
-Si tienes dudas o sugerencias, ¡hazme saber! 🚀
+## Referencias
