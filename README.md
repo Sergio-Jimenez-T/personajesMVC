@@ -1,11 +1,20 @@
 # Proyecto: Personajes de VideoJuegos
 ## Índice
-1. [Repositorio](#-clonar-el-repositorio)
-2. [Configuracion D.B.](#-configurar-la-base-de-datos)
-3. [URLS Especificas](#-URL'S)
-4. [Tecnologías Utilizadas](#-tecnologías-utilizadas)
-5. [Referencias](#-referencias)
+1. 
+2. 
+3. 
+4. 
+5. 
+---
 
+## 📚 Índice  
+
+- [Repositorio](#-clonar-el-repositorio) 
+- [Configuracion D.B.](#-configurar-la-base-de-datos)  
+- [URLS Especificas](#-URL'S)  
+- [Tecnologías Utilizadas](#-tecnologías-utilizadas)  
+- [Referencias](#-referencias) 
+---
 ## Descripción
 Este proyecto es un sistema para la gestión de personajes de videojuegos. Permite visualizar, agregar, editar y eliminar personajes, con una interfaz amigable y un estilo oscuro para mejorar la experiencia visual.
 El proyecto fue desarrollado con la finalidad de comprender de mejor manera la manera de trabajar con archivos en una carpeta utilizando una jerarquia MVC la cual nos ayuda a mantener un orden en nuestro proyecto ademas de que tambien utiliza un archivo .htacces el cual no permite al ususario acceder a la arpeta de aplicacion la cual contiene los datos del funcionamiento del proyecto y los datos sensibles 
