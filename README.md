@@ -25,7 +25,7 @@ Este proyecto es una aplicación web para la gestión de personajes de videojueg
 - **MySQL**
 - **HTML, CSS**
 - **Servidor Apache**
-- **XAMPP**
+- **[XAMPP](#https://www.apachefriends.org/es/index.html)**
 
 ---
 
