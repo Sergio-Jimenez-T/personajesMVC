@@ -2,12 +2,13 @@
 
 ## Descripción
 Este proyecto es un sistema para la gestión de personajes de videojuegos. Permite visualizar, agregar, editar y eliminar personajes, con una interfaz amigable y un estilo oscuro para mejorar la experiencia visual.
+El proyecto fue desarrollado con la finalidad de comprender de mejor manera la manera de trabajar con archivos en una carpeta utilizando una jerarquia MVC la cual nos ayuda a mantener un orden en nuestro proyecto ademas de que tambien utiliza un archivo .htacces el cual no permite al ususario acceder a la arpeta de aplicacion la cual contiene los datos del funcionamiento del proyecto y los datos sensibles 
 
 ## Instalación y Configuración
 
 ### 1. Clonar el repositorio
 ```bash
-  git clone <(https://github.com/Sergio-Jimenez-T/personajesMVC/edit/main/Personajes/README.md)>
+  git clone <(https://github.com/Sergio-Jimenez-T/personajesMVC/edit/main/Personajes)>
 ```
 
 ### 2. Configurar la base de datos
@@ -15,21 +16,7 @@ Este proyecto es un sistema para la gestión de personajes de videojuegos. Permi
 - Importar el archivo **database.sql** en MySQL.
 - Configurar la conexión en **config/database.php**.
 
-### 3. Configurar el servidor local
-Si usas Apache, puedes configurar `.htaccess` para que el acceso sea directo a la carpeta del proyecto sin necesidad de ingresar a `/public`.
-
-Ejemplo de configuración en **Apache**:
-```apache
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteBase /Personajes/
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^(.*)$ public/$1 [L]
-</IfModule>
-```
-
-## URLs Principales
+### 3. URL's 
 | Acción  | URL |
 |---------|-----|
 | Dashboard principal | `http://localhost/Personajes/` |
