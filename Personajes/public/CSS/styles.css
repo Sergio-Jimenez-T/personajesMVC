@@ -1,0 +1,84 @@
+/* General body styles */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #121212; /* Fondo oscuro */
+    margin: 0;
+    padding: 0;
+    color: #e0e0e0; /* Texto claro */
+}
+
+/* Header */
+header {
+    background-color: #1e40af; /* Azul oscuro */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 2.2em;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Container general */
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #1e293b; /* Azul grisáceo oscuro */
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    color: #e0e0e0;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #1e293b; /* Mismo color que el container */
+    color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #374151; /* Gris oscuro */
+}
+
+tr:nth-child(even) {
+    background-color: #111827; /* Un poco más oscuro */
+}
+
+/* Links */
+a {
+    color: #3b82f6; /* Azul */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ef4444; /* Rojo al pasar el mouse */
+    text-decoration: none;
+}
+
+/* Botón */
+button {
+    padding: 12px 20px;
+    font-size: 1em;
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #b91c1c; /* Rojo oscuro */
+    transform: scale(1.05);
+}
