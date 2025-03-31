@@ -24,7 +24,8 @@ Este proyecto es una aplicación web para la gestión de personajes de videojueg
 - **PHP (MVC)**
 - **MySQL**
 - **HTML, CSS**
-- **Apache con mod_rewrite**
+- **Servidor Apache**
+- **XAMPP**
 
 ---
 
