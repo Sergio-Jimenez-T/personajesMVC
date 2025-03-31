@@ -54,7 +54,7 @@ Personajes/
 - **Apache** (Servidor local)
 
 ## Referencias
-- [GUIA de ejemplo MVC](Profesor: Martin Cordero Ocampo repositorio MVC ejemplo:)
+- [GUIA de ejemplo MVC de Profesor: Martin Cordero Ocampo repositorio MVC ejemplo:https:](https://github.com/miRepositorioGit/EjemploMvcObjetos)
 - [PHP: Manual Oficial](https://www.php.net/manual/es/)
 - [Guía de MVC en PHP](https://diego.com.es/ejemplo-de-mvc-en-php)
 - [Apache mod_rewrite](https://httpd.apache.org/docs/2.4/mod/mod_rewrite.html)
