@@ -8,7 +8,7 @@ El proyecto fue desarrollado con la finalidad de comprender de mejor manera la m
 
 ### 1. Clonar el repositorio
 ```bash
-  git clone <(https://github.com/Sergio-Jimenez-T/personajesMVC/edit/main/Personajes)>
+  git clone https://github.com/Sergio-Jimenez-T/personajesMVC/
 ```
 
 ### 2. Configurar la base de datos
