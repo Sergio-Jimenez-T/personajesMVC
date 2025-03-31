@@ -3,7 +3,7 @@
 
 ## 📚 Índice  
 
-- [Clonar el repositorio](#-clonar-el-repositorio) 
+- [1. Clonar el repositorio](#-clonar-el-repositorio) 
 - [Configuracion D.B.](#-configurar-la-base-de-datos)  
 - [URLS Especificas](#-URL'S)  
 - [Tecnologías Utilizadas](#-tecnologías-utilizadas)  
