@@ -105,8 +105,8 @@ En este caso **no se usa un Front Controller puro**, sino un **controlador espec
 | **Punto de entrada único** | Sí, todas las solicitudes pasan por un solo controlador. | No, cada entidad (ej. Personajes) tiene su propio controlador. |
 | **Gestión de rutas**     | Usa un solo controlador y delega la lógica. | Cada controlador maneja sus propias acciones. |
 | **Modularidad**          | Menos modular, pero más centralizado. | Más modular, cada entidad tiene su lógica separada. |
-
-##Cada funcionalidad (ya sean los de listar todos los personajes, agregar, editar, eliminar) se maneja dentro de **`PersonajesController.php`**, lo que lo convierte en un **controlador dedicado** en lugar de un **Front Controller**.  
+---
+## Cada funcionalidad (ya sean los de listar todos los personajes, agregar, editar, eliminar) se maneja dentro de **`PersonajesController.php`**, lo que lo convierte en un **controlador dedicado** en lugar de un **Front Controller**.  
 ---
 ---
 
