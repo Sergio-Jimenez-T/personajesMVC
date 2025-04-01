@@ -106,7 +106,7 @@ En este caso **no se usa un Front Controller puro**, sino un **controlador espec
 | **Gestión de rutas**     | Usa un solo controlador y delega la lógica. | Cada controlador maneja sus propias acciones. |
 | **Modularidad**          | Menos modular, pero más centralizado. | Más modular, cada entidad tiene su lógica separada. |
 
-Cada funcionalidad (ya sean los de listar todos los personajes, agregar, editar, eliminar) se maneja dentro de **`PersonajesController.php`**, lo que lo convierte en un **controlador dedicado** en lugar de un **Front Controller**.  
+##Cada funcionalidad (ya sean los de listar todos los personajes, agregar, editar, eliminar) se maneja dentro de **`PersonajesController.php`**, lo que lo convierte en un **controlador dedicado** en lugar de un **Front Controller**.  
 ---
 ---
 
