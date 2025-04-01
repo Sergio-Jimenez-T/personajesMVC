@@ -97,17 +97,14 @@ El proyecto sigue el patrón **Modelo-Vista-Controlador (MVC)**, lo que signific
 ### 🎯 **Front Controller**  
 
 En este caso **no se usa un Front Controller puro**, sino un **controlador específico para Personajes** (`PersonajesController.php`).  
+Cada funcionalidad (ya sean los de listar todos los personajes, agregar, editar, eliminar) se maneja dentro de **`PersonajesController.php`**, lo que lo convierte en un **controlador dedicado** en lugar de un **Front Controller**.  
+#### **Diferencias entre usar Front Controller y utilizar el Multiple Controller's:**  
 
-### **Diferencia entre Front Controller y este enfoque:**  
-
-| Característica           | Front Controller (No usado aquí) | Enfoque actual (Usado aquí) |
+| Característica           | Front Controller (Otros Proyectos) | Multiple controller's (Este proyecto) |
 |-------------------------|--------------------------------|-----------------------------|
 | **Punto de entrada único** | Sí, todas las solicitudes pasan por un solo controlador. | No, cada entidad (ej. Personajes) tiene su propio controlador. |
 | **Gestión de rutas**     | Usa un solo controlador y delega la lógica. | Cada controlador maneja sus propias acciones. |
 | **Modularidad**          | Menos modular, pero más centralizado. | Más modular, cada entidad tiene su lógica separada. |
----
-## Cada funcionalidad (ya sean los de listar todos los personajes, agregar, editar, eliminar) se maneja dentro de **`PersonajesController.php`**, lo que lo convierte en un **controlador dedicado** en lugar de un **Front Controller**.  
----
 ---
 
 ## 🔗 URLs Principales
