@@ -27,7 +27,7 @@ Este proyecto es una aplicación web para la gestión de personajes de videojueg
 - **HTML, CSS**
 - **Servidor Apache**
 - **[XAMPP](#https://www.apachefriends.org/es/index.html)**
-
+< href= "#contenido"> Regresar al índice.</a>
 ---
 
 ## 📝 Instalación
@@ -46,7 +46,7 @@ Este proyecto es una aplicación web para la gestión de personajes de videojueg
 
 1. Clonar el repositorio o descargarlo.
 2. Abrir el navegador y acceder a `http://localhost/Personajes`.
-
+< href= "#contenido"> Regresar al índice.</a>
 ---
 
 ## 📂 Estructura del Proyecto
@@ -91,7 +91,7 @@ El proyecto sigue el patrón **Modelo-Vista-Controlador (MVC)**, lo que signific
    - **Agregar un personaje**: El usuario llena un formulario y envía los datos para que se guarden en la base de datos.  
    - **Editar un personaje**: Se carga la información actual de un personaje y se permite modificarla.  
    - **Eliminar un personaje**: Se ofrece la opción de eliminar un personaje de la base de datos.  
-
+< href= "#contenido"> Regresar al índice.</a>
 ---
 
 ### 🎯 **Front Controller**  
@@ -113,9 +113,9 @@ Cada funcionalidad (ya sean los de listar todos los personajes, agregar, editar,
 - **Agregar un nuevo personaje:** `http://localhost/Personajes/agregar`
 - **Editar un personaje:** `http://localhost/Personajes/editar/{ID}`
 - **Eliminar un personaje:** `http://localhost/Personajes/eliminar/{ID}`
-
+< href= "#contenido"> Regresar al índice.</a>
+< href= "#contenido"> Regresar al índice.</a>
 ---
-
 
 ## 📖 Referencias
 
@@ -125,4 +125,5 @@ Cada funcionalidad (ya sean los de listar todos los personajes, agregar, editar,
 - [Bootstrap para estilos](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 - [GUIA de ejemplo MVC de Profesor: Martin Cordero Ocampo repositorio MVC ejemplo:](https://github.com/miRepositorioGit/EjemploMvcObjetos)
 - [XAMPP](https://www.apachefriends.org/es/index.html)
+< href= "#contenido"> Regresar al índice.</a>
 ---
