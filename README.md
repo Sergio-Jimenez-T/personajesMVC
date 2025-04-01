@@ -127,5 +127,5 @@ En este caso, cada funcionalidad (listar, agregar, editar, eliminar personajes) 
 - [Apache mod_rewrite](https://httpd.apache.org/docs/2.4/mod/mod_rewrite.html)
 - [Bootstrap para estilos](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 - [GUIA de ejemplo MVC de Profesor: Martin Cordero Ocampo repositorio MVC ejemplo:](https://github.com/miRepositorioGit/EjemploMvcObjetos)
-- [XAMPP](#https://www.apachefriends.org/es/index.html)
+- [XAMPP](https://www.apachefriends.org/es/index.html)
 ---
