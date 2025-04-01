@@ -2,17 +2,17 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Personajes de VideoJuegos</title>
+    <title>🕹️Personajes de VideoJuegos🕹️</title>
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
     <header>
-        <h1>Personajes</h1>
+        <h1>🕹️ Personajes Videojuegos 🕹️</h1>
     </header>
 
     <div class="container">
         <h2>Lista de Personajes</h2>
-        <a href="index.php?action=agregar">Agregar un Nuevo personaje 🐱‍🏍</a>
+        <a href="index.php?action=agregar">🕹️🎮Agregar un Nuevo personaje🚥🕹️</a>
         
         <?php if (!empty($rowset)): ?>
             <table>

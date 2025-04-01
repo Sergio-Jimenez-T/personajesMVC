@@ -8,6 +8,7 @@
 <body>
     <header>
         <h1>Editar Personaje</h1>
+		<button type="button" onclick="window.history.back();">Regresar</button>
     </header>
 
     <div class="container">
@@ -23,9 +24,7 @@
 			<input type="text" name="especie" value="<?= $row->especie ?>">
 			<button type="submit">Actualizar</button>
 		</form>
-
         </div>
-
     </div>
 </body>
 </html>
