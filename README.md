@@ -94,7 +94,7 @@ El proyecto sigue el patrón **Modelo-Vista-Controlador (MVC)**, lo que signific
 
 ---
 
-### 🎯 **¿El controlador es un Front Controller?**  
+### 🎯 **Front Controller**  
 
 En este caso **no se usa un Front Controller puro**, sino un **controlador específico para Personajes** (`PersonajesController.php`).  
 
