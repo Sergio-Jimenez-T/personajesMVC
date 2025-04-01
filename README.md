@@ -98,7 +98,7 @@ El proyecto sigue el patrón **Modelo-Vista-Controlador (MVC)**, lo que signific
 
 En este caso **no se usa un Front Controller puro**, sino un **controlador específico para Personajes** (`PersonajesController.php`).  
 
-#### **Diferencia entre Front Controller y este enfoque:**  
+### **Diferencia entre Front Controller y este enfoque:**  
 
 | Característica           | Front Controller (No usado aquí) | Enfoque actual (Usado aquí) |
 |-------------------------|--------------------------------|-----------------------------|
