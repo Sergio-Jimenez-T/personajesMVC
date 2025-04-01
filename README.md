@@ -9,8 +9,9 @@
   - [2. Configurar el servidor](#2-configurar-el-servidor)
   - [3. Ejecutar el proyecto](#3-ejecutar-el-proyecto)
 - [📚 Estructura del Proyecto](#-estructura-del-proyecto)
-- [🔗 URLs Principales](#-urls-principales)
-- [📚 Referencias](#-referencias)
+- [📎Funcionamiento del programa](#-funcionamiento-del-programa)
+- [🔗 URLs Principales🔍](#-urls-principales)
+- [📖 Referencias](#-referencias)
 
 ---
 
@@ -69,8 +70,6 @@ Personajes/
 │── .htaccess
 │── README.md
 ```
-Claro, aquí tienes una explicación detallada sobre el funcionamiento del programa y el tipo de controlador que estás utilizando.  
-
 ---
 --
 ### 🛠 **Funcionamiento del Programa**  
