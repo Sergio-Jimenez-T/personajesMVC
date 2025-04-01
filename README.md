@@ -69,7 +69,46 @@ Personajes/
 │── .htaccess
 │── README.md
 ```
+Claro, aquí tienes una explicación detallada sobre el funcionamiento del programa y el tipo de controlador que estás utilizando.  
 
+---
+--
+### 🛠 **Funcionamiento del Programa**  
+
+El proyecto sigue el patrón **Modelo-Vista-Controlador (MVC)**, lo que significa que separa la lógica de negocio (Modelo), la presentación (Vista) y el control de flujo (Controlador).  
+
+1. **Inicio del Programa**  
+   - Cuando un usuario accede a `http://localhost/Personajes`, se ejecuta el archivo **`public/index.php`**.  
+   - Gracias a **`.htaccess`**, las URLs se manejan para que no sea necesario escribir `public/` en la ruta.  
+   - Este archivo carga la configuración y redirige al **controlador** correspondiente.  
+
+2. **Flujo General**  
+   - **Controlador (`PersonajesController.php`)**: Recibe las peticiones y decide qué acción realizar.  
+   - **Modelo (`Personaje.php`)**: Se comunica con la base de datos para obtener, insertar, actualizar o eliminar datos.  
+   - **Vistas (`view/`)**: Se encargan de mostrar los datos al usuario.  
+
+3. **Interacción con el Usuario**  
+   - **Mostrar todos los personajes**: El usuario accede a la página principal y se muestra una tabla con los personajes almacenados.  
+   - **Agregar un personaje**: El usuario llena un formulario y envía los datos para que se guarden en la base de datos.  
+   - **Editar un personaje**: Se carga la información actual de un personaje y se permite modificarla.  
+   - **Eliminar un personaje**: Se ofrece la opción de eliminar un personaje de la base de datos.  
+
+---
+
+### 🎯 **¿El controlador es un Front Controller?**  
+
+No, en este caso **no se usa un Front Controller puro**, sino un **controlador específico para Personajes** (`PersonajesController.php`).  
+
+#### **Diferencia entre Front Controller y este enfoque:**  
+
+| Característica           | Front Controller (No usado aquí) | Enfoque actual (Usado aquí) |
+|-------------------------|--------------------------------|-----------------------------|
+| **Punto de entrada único** | Sí, todas las solicitudes pasan por un solo controlador. | No, cada entidad (ej. Personajes) tiene su propio controlador. |
+| **Gestión de rutas**     | Usa un solo controlador y delega la lógica. | Cada controlador maneja sus propias acciones. |
+| **Modularidad**          | Menos modular, pero más centralizado. | Más modular, cada entidad tiene su lógica separada. |
+
+En este caso, cada funcionalidad (listar, agregar, editar, eliminar personajes) es manejada dentro de **`PersonajesController.php`**, lo que lo convierte en un **controlador dedicado** en lugar de un **Front Controller**.  
+---
 ---
 
 ## 🔗 URLs Principales
