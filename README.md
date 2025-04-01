@@ -72,8 +72,8 @@ Personajes/
 ```
 <br>
 -
-<a href= "#contenido"> Regresar al índice.</a>
---
+<a href= "#contenido"> Regresar al índice.</a><br>
+---
 ### 🛠 **Funcionamiento del Programa**  
 
 El proyecto sigue el patrón **Modelo-Vista-Controlador (MVC)**, lo que significa que separa la lógica de negocio (Modelo), la presentación (Vista) y el control de flujo (Controlador).  
