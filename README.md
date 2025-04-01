@@ -12,6 +12,7 @@
 - [📎Funcionamiento del programa](#-funcionamiento-del-programa)
 - [🔗 URLs Principales🔍](#-urls-principales)
 - [📖 Referencias](#-referencias)
+- [👨‍💻Acerca de mi👨‍💻](#-about-me)
 
 ---
 
@@ -71,7 +72,6 @@ Personajes/
 │── README.md
 ```
 <br>
--
 <a href= "#contenido"> Regresar al índice.</a><br>
 ---
 ### 🛠 **Funcionamiento del Programa**  
